@@ -1,0 +1,4 @@
+# 运行不需要第三方包，Python 3.11 及以上的标准库就够了。
+# 测试依赖写在 pyproject.toml 的 dev 额外项里：
+#   pip install -e ".[dev]"
+#   pytest
